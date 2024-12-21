@@ -1,8 +1,8 @@
-/* General Styles */
+    /* General Styles */
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    background-color: #fdf6e4;
+    background-color: #f8e5bb;
     color: #333;
     line-height: 1.6;
 }
@@ -12,8 +12,8 @@ h1, h2 {
 }
 
 .section {
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -22,8 +22,8 @@ h1, h2 {
 /* Header Styles */
 .hero {
     position: relative;
-    height: 60vh;
-    background: url('assets/background.jpg') no-repeat center center/cover;
+    height: 30vh;
+    background: url(assets/background.jpg);
     color: white;
     display: flex;
     align-items: center;
@@ -33,14 +33,11 @@ h1, h2 {
 
 .hero .overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
 }
 
-.logo {
-    max-width: 100px;
-    margin-bottom: 20px;
-}
+
 
 /* Navbar Styles */
 .navbar {
